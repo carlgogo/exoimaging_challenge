@@ -1,4 +1,4 @@
-exclude: ["README.md", "Rakefile", "changelog.md", "LICENSE"]
+exclude: ["Rakefile", "changelog.md", "LICENSE"]
 
 theme: jekyll-theme-modernist
 plugins:
