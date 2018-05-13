@@ -1,3 +1,3 @@
-## Exoplanets direct imaging data challenge
+## Welcome to the data challenge website 
 
-Website for the exoplanets direct imaging data challenge: https://carlgogo.github.io/exoimaging_challenge/
+This is the Exoplanets direct imaging data challenge [website](https://carlgogo.github.io/exoimaging_challenge/)
