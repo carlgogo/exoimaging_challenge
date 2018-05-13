@@ -11,13 +11,13 @@ plugins:
 
 jekyll_analytics:
   GoogleAnalytics:             # Add, if you want to track with Google Analytics
-    id: UA-84473187-2          # Required - replace with your tracking id
+    id: UA-84473187-3          # Required - replace with your tracking id
     anonymizeIp: false         # Optional - Default: false - set to true for anonymized tracking
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : simple site
+title : Exoplanet imaging data challenge
 author :
   name : Carlos Alberto Gomez Gonzalez
   email : carlosgg33@gmail.com
