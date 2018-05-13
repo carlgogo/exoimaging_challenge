@@ -1,6 +1,6 @@
 exclude: ["README.md", "Rakefile", "changelog.md", "LICENSE"]
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-analytics
 
