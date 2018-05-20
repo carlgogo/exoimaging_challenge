@@ -3,7 +3,7 @@ description:
 show_downloads: false
 git_branch: master
 logo_url:
-google_analytics:
+google_analytics: UA-84473187-3
 theme: jekyll-theme-cayman
 wiki_folder: wiki
 use_github_wiki: false
@@ -18,15 +18,9 @@ author :
   email : carlosgg33@gmail.com
   github : carlgogo
 
-jekyll_analytics:
-  GoogleAnalytics:             # Add, if you want to track with Google Analytics
-    id: UA-84473187-3          # Required - replace with your tracking id
-    anonymizeIp: false         # Optional - Default: false - set to true for anonymized tracking
-
 gems:
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-analytics
