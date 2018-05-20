@@ -4,7 +4,7 @@ show_downloads: false
 git_branch: master
 logo_url:
 google_analytics:
-theme: Cayman
+theme: jekyll-theme-cayman
 wiki_folder: wiki
 use_github_wiki: false
 use_prose_io: true
