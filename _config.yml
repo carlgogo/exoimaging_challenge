@@ -1,10 +1,10 @@
 title: Exoplanet imaging data challenge
 description:
-show_downloads: true
+show_downloads: false
 git_branch: master
 logo_url:
 google_analytics:
-theme: 
+theme: hydeout
 wiki_folder: wiki
 use_github_wiki: false
 use_prose_io: true
