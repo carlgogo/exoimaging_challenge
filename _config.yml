@@ -1,14 +1,11 @@
-title: Exoplanet imaging data challenge
-description:
+title: Exoplanet Imaging Challenge
+description: Data challenge for exoplanets direct detection and characterization with high-contrast imaging
 show_downloads: false
 git_branch: master
 logo_url:
 google_analytics: UA-84473187-3
-theme: jekyll-theme-cayman
-wiki_folder: wiki
-use_github_wiki: false
+google_cse_token:
 use_prose_io: true
-google_cse_token: 
 custom_head: false
 custom_sidebar: false
 custom_footer: false
@@ -24,3 +21,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-feed
+
+theme:
+wiki_folder: wiki
+use_github_wiki: false
