@@ -1,18 +1,18 @@
 Welcome to the website of the Exoplanets Direct Imaging Data Challenge. 
 
 # Scientific context and motivation
-{% include_relative context.md %}
+{% include_relative pages/context.md %}
 
 # The challenge
 
 ## Datasets
-{% include_relative datasets.md %}
+{% include_relative pages/datasets.md %}
 
 ## Sub-challenges and metrics
-{% include_relative metrics.md %}
+{% include_relative pages/metrics.md %}
 
 ## Scoreboard 
-{% include_relative score.md %}
+{% include_relative pages/score.md %}
 
 # References
 Radial-velocity Fitting Challenge I (Dumusque 2017)
