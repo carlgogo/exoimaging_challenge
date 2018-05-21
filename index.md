@@ -1,20 +1,30 @@
 Welcome to the website of the Exoplanets Direct Imaging Data Challenge. 
 
-# Scientific context and motivation
+# Scientific context
 {% include_relative pages/context.md %}
 
 # The challenge
 
+## Sub-challenges.
+{% include_relative pages/subchallenges.md %}
+
 ## Datasets
 {% include_relative pages/datasets.md %}
 
-## Sub-challenges and metrics
+## Metrics
 {% include_relative pages/metrics.md %}
 
 ## Scoreboard 
 {% include_relative pages/score.md %}
 
 # References
-Radial-velocity Fitting Challenge I (Dumusque 2017)
-Radial-velocity Fitting Challenge II (Dumusque et al. 2017)
-The Strong Gravitational Lens Finding Challenge (Metcalf 2018)
+A non-exhaustive list of past and on-going astronomical data challenges:
+
+* Supernova Photometric Classification Challenge (Kessler 2010). [Arxiv](https://arxiv.org/abs/1001.5210).
+* Results from the Supernova Photometric Classification Challenge (Kessler 2010). [Arxiv](https://arxiv.org/abs/1008.1024).
+* Radial-velocity Fitting Challenge I (Dumusque 2017). [Arxiv](https://arxiv.org/abs/1607.06487).
+* Radial-velocity Fitting Challenge II (Dumusque et al. 2017). [Arxiv](https://arxiv.org/abs/1609.03674).
+* The Strong Gravitational Lens Finding Challenge (Metcalf 2018). [Arxiv](https://arxiv.org/abs/1802.03609).
+* WFIRST: Microlensing Analysis Data Challenge (Street 2018). [Website](http://microlensing-source.org/).
+* [WFIRST Exoplanet Data Challenges](https://wfirst.ipac.caltech.edu/sims/CGI_Data_Challenges.html)
+* The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC). [Website](https://plasticcblog.wordpress.com/).

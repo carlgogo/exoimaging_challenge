@@ -1,0 +1,1 @@
+This data challenge would focus on the most widely used observing techniques, pupil tracking and/or multi-spectral imaging (ADI and multi-spectral SDI). Detection and characterization of companions will be understood as independent tasks, with their own metrics and scoreboards.
