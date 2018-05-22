@@ -5,7 +5,7 @@ Welcome to the website of the Exoplanets Direct Imaging Data Challenge.
 
 # The challenge
 
-## Sub-challenges.
+## Sub-challenges
 {% include_relative pages/subchallenges.md %}
 
 ## Datasets

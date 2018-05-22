@@ -2,7 +2,7 @@ title: Exoplanet Imaging Challenge
 description: Data challenge for exoplanets direct detection and characterization with high-contrast imaging
 show_downloads: false
 git_branch: master
-logo_url:
+logo_url: pages/challenge_logo_LR.png
 google_analytics: UA-84473187-3
 google_cse_token:
 use_prose_io: true
