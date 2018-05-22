@@ -1,8 +1,13 @@
-Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter, we present a community-wide data challenge for exoplanets direct detection and characterization with ground-based high-contrast imaging. The conditions of such challenge are *being* defined in collaboration with several renowned members of the high-contrast imaging community. 
+Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter, we present a community-wide data challenge for exoplanets direct detection and characterization with ground-based high-contrast imaging. 
 
-## Scientific context
+> The conditions of such challenge are *being* defined in collaboration with several renowned members of the high-contrast imaging community. 
 
-**Task:** *Exoplanet direct imaging for dummies here.*
+## Science
+
+**Task:** *Exoplanets direct imaging and high-contrast imaging for dummies here.*
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=SpzeS7KBGkw" target="_blank"><img src="http://img.youtube.com/vi/SpzeS7KBGkw/0.jpg" 
+alt="NASA/JPL video" width="560" height="340" border="10" /></a>
 
 ## Motivation
 
@@ -10,6 +15,6 @@ There are currently multiple post-processing algorithms and pipelines for proces
 
 Computer science and machine learning fields have a long tradition conducting data challenges and competitions. Repositories of benchmark (curated) datasets are an integral part of the field of machine learning. On the other hand, there are several frameworks for hosting and organizing data challenges, such as [Kaggle](www.kaggle.com).
 
- The goal of this challenge is not only to compare, in a fair and robust way, existing algorithms but to spark new collaborations/ideas, share knowledge, and ultimately to maximize the scientific return of existing and future near-infrared HCI instruments.
+ The goal of this challenge is not only to compare, in a fair and robust way, existing algorithms but to spark new collaborations/ideas, share knowledge, and ultimately to maximize the scientific return of existing and future near-infrared high-contrast imaging instruments.
 
 
