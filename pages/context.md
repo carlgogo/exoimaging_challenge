@@ -6,8 +6,7 @@ Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter
 
 **Task:** *Exoplanets direct imaging and high-contrast imaging for dummies here.*
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=SpzeS7KBGkw" target="_blank"><img src="http://img.youtube.com/vi/SpzeS7KBGkw/0.jpg" 
-alt="NASA/JPL video" width="560" height="340" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Motivation
 
