@@ -196,8 +196,10 @@ footer {
 }
 
 .tools-element {
-    border-left: gray;
-    border-left-style: solid;
+    border-left: #d6d5d5;
+    border-left-style: ridge;
+    border-right: #d6d5d5;
+    border-right-style: ridge;
     padding-left: 20px;
     padding-right: 20px;
 }
