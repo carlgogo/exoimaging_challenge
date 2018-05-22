@@ -27,4 +27,4 @@ A non-exhaustive list of past and on-going astronomical data challenges:
 * The Strong Gravitational Lens Finding Challenge (Metcalf 2018). [Arxiv](https://arxiv.org/abs/1802.03609).
 * [WFIRST: Microlensing Analysis Data Challenge](http://microlensing-source.org/).
 * [WFIRST Exoplanet Data Challenges](https://wfirst.ipac.caltech.edu/sims/CGI_Data_Challenges.html).
-* The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC). [Website](https://plasticcblog.wordpress.com/).
+* [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://plasticcblog.wordpress.com/).
