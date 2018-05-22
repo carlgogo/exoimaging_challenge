@@ -1,6 +1,6 @@
 Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter, we present a community-wide data challenge for exoplanets direct detection and characterization with ground-based high-contrast imaging. 
 
-> The conditions of such challenge are *being* defined in collaboration with several renowned members of the high-contrast imaging community. 
+> The conditions of the challenge are *being* defined in collaboration with several renowned members of the high-contrast imaging community. 
 
 ## Science
 

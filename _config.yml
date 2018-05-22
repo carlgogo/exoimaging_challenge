@@ -1,5 +1,6 @@
 title: Exoplanet Imaging Challenge
 description: Community-wide data challenge for exoplanets direct detection and characterization with high-contrast imaging
+markdown: kramdown
 show_downloads: false
 git_branch: master
 logo_url: https://carlgogo.github.io/exoimaging_challenge/assets/images/challenge_logo_LR.png
