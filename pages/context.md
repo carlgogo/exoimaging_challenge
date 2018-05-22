@@ -2,7 +2,7 @@ Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter
 
 ## Scientific context
 
-Exoplanet direct imaging for dummies here.
+**Task: Exoplanet direct imaging for dummies here.**
 
 ## Motivation
 
