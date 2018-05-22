@@ -1,0 +1,9 @@
+## Datasets table
+
+This is an example of the table of datasets. We aim to have in total ~30 datasets from different instruments with different characteristics: slow/high speed cameras, broadband/filtered sequences, small/large total rotation, coronagraph type, etc.
+
+| ID   |  Object       | Instrument        | Observing technique| Download link
+| ---  | --------------| -------------     | ----------------   | -------------
+|  01  | betaPic       | VLT/NaCo          | ADI                | ...
+|  02  | betaPic       | VLT/SPHERE/IRDIS  | ADI                | ...
+|  03  | hr8799        | other instrument  | ADI with IFS       | ...
