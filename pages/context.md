@@ -4,9 +4,11 @@ Direct imaging is the next big step in the hunt of extrasolar planets. Hereafter
 
 ## Science
 
-**Task:** *Exoplanets direct imaging and high-contrast imaging for dummies here.*
+Ground-based direct imaging of exoplanets is a challenging task. The main difficulties are the image degradation caused by the Earth's turbulent atmosphere, the huge difference in brightness between the host star and its potential companions (high-contrast imaging!), and the small angular separation between them. High-contrast imaging from the ground makes use of adaptive optics systems and coronagraphy. The following video, prepared by the NASA Exoplanet Exploration Program, explain in simple terms the role of coronagraphy and adaptive optics with deformable mirrors in high-contrast imaging.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+The two remaining components of high-contrast imaging are the data acquisition techniques ([see the sub-challenges section](pages/subchallenges.md)) and the post-processing techniques. The algorithms for post-processing of high-contrast imaging sequences are the focus of this data challenge.
 
 ## Motivation
 
