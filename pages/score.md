@@ -1,3 +1,5 @@
 Scoreboard information.
 
-**Taks:** *What framework will be using? Kaggle is not suited for this challenge as they focus solely on supervised learning problems. Perhaps [Codalab](http://codalab.org/)?.* 
+**Taks:** *Which framework is going to be used? [Kaggle](https://www.kaggle.com/) is not well suited for this sort of challenges (their focus in on supervised learning problems).*
+
+[Codalab](http://codalab.org/) seems to be a good alternative. This option is being explored in collaboration with researchers from the Genoble Alpes Data Institute, who have expertise in the realization of domain data challenges. 
