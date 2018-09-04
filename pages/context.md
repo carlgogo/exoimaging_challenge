@@ -6,6 +6,7 @@ Direct observation of exoplanets using ground-based telescopes is a challenging 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
 The two remaining components of high-contrast imaging are the data acquisition techniques ([see the sub-challenges section](pages/subchallenges.md)) which focus on introducing some diversity in the data that later on can be exploited by the post-processing techniques. This last step of algorithmic speckle noise subtraction is what ultimately pushes the sensitivity of the exposures and the detection limits of surveys and instruments. 
 
 ## Objectives
