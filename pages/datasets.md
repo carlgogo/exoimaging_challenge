@@ -4,7 +4,7 @@ The benchmark datasets will be compiled in a public repository, ensuring the lon
 
 In order to reduce the need of domain knowledge (e.g. the expertize on a specific instrument), the datasets will be calibrated/pre-processed using the standard pipelines of each instrument. When entering the database, they will be recorded in a public [table (Google spreadsheet)](pages/datasets_table)). A complete description of the calibration procedures performed, and a link to the software used, will be attached to each datacube.
 
-![data](https://github.com/carlgogo/exoimaging_challenge/blob/master/assets/images/challenge_illustrations.003.png){:width="500px"}
+![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_illustrations.003.png){:width="500px"}
  
 **Task:** *Which datasets will enter the benchmark database ([table/spreadsheet](pages/datasets_table))?* 
 
