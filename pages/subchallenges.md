@@ -1,5 +1,9 @@
-This data challenge would focus on the most widely used observing techniques, pupil tracking and/or multi-spectral imaging (angular differential imaging and multi-channel spectral differential imaging). Detection and characterization of companions will be understood as independent tasks, with their own metrics and scoreboards.
+With the aim of creating a manageable competition, we will focus solely on detection of point-like sources (exoplanets). Other tasks, such as the characterization of companions or the detection of extended sources, will be the subject of future editions of the challenge. This first competition will consider two sub-challenges focused on the two most widely used observing techniques: pupil tracking (angular differential imaging, ADI) and multi-spectral imaging (multi-channel spectral differential imaging, SDI). 
 
-**Task:** *Briefly explain the principles of the observing techniques.* 
+In pupil-stabilized or pupil-tracking observations the telescope pupil is stabilized on the detector and the field of view rotates in step with a given angle (the parallactic angle). This generates a fake movement of the companions in a circular trajectory around the center of the image, the place where the star is located. This process disentangles the exoplanet signal from the speckle field, an effect that is enhanced by the post-processing techniques. ADI datasets are composed of a 3d cube of images taken during an observing run and their corresponding parallactic angles and non-saturated point-spread function (PSF). 
 
-**Task:** *Explain the data: 3d cubes for ADI and 4d cubes for ADI with an IFS.* 
+![ADI](/assets/images/challenge_illustrations.001.png){:width="500px"}
+
+In the case of multi-spectral imaging, an integral field spectrograph is used to disperse the light, providing a data cube of several monochromatic images. The resolution and band coverage varies depending on the instrument used. SDI is usually combined with ADI in modern instruments. In this case, the datasets are composed of a 4d cube of images, a vector of parallactic angles, a vector of wavelenghts and a PSF.
+
+![SDI](/assets/images/challenge_illustrations.002.png){:width="500px"}
