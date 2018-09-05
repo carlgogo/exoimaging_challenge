@@ -1,6 +1,6 @@
 Scoreboard information.
 
-**Taks:** *Which framework is going to be used?* 
+> TBD: Which framework are we using to host the challenge? 
 
 [Kaggle](https://www.kaggle.com/) is not well suited for this sort of challenges (their focus in on supervised learning problems).
 

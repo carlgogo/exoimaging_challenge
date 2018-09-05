@@ -3,6 +3,7 @@
 # Scientific context
 {% include_relative pages/context.md %}
 
+---
 # The challenge
 
 ## Sub-challenges
@@ -17,6 +18,7 @@
 ## Scoreboard 
 {% include_relative pages/score.md %}
 
+---
 # References
 A non-exhaustive list of past and on-going astronomical data challenges can be found [here](pages/references.md).
 

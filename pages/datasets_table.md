@@ -1,8 +1,8 @@
 ## Datasets table
 
-This is an example of the table of datasets. We aim to have in total ~30 datasets from different instruments with different characteristics: slow/high speed cameras, broadband/filtered sequences, small/large total rotation, coronagraph type, etc.
+This is an example of the datasets table. 
 
-**Task:** *Other important columns in the table?*
+> TBD: Other important columns in the table?
 
 [Link to the Google sheet.](https://docs.google.com/spreadsheets/d/1Zx7tTGNBMhCXpAa5KIoufdvMrxtjfA3q2gX03APMkaM/edit?usp=sharing)
 
