@@ -17,6 +17,6 @@ Computer science and machine learning fields have a long tradition conducting da
 
 ## Timeline
 
-Our goal is to start this data challenge in the fall of 2018, as soon as we finish ironing out the last details. In particular, we are considering the organization of a workshop on image processing for exoplanet direct imaging that could at the same time host a hackathon session for the participants of the data challenge. Please contact the organizers if you have questions, suggestions or are willing to provide support of any kind. 
+Our goal is to launch this data challenge in the fall of 2018, as soon as we finish ironing out the last details. In particular, we are considering the organization of a workshop on image processing for exoplanet direct imaging that could at the same time host a hackathon session for the participants of the data challenge. Please contact the organizers if you have questions, suggestions or are willing to provide support of any kind. 
 
 
