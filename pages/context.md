@@ -1,4 +1,4 @@
-Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. This challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. This data challenge has direct support from the Grenoble Alpes Data Institute, France.
+Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. This challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. This data challenge has direct support from the Grenoble Alpes Data Institute (Grenoble, France).
 
 In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository or an email to [carlos.gomez@univ-grenoble-alpes.fr](mailto:carlos.gomez@univ-grenoble-alpes.fr). All the benchmark datasets, metrics and results will be available at the end of the competition.
 
@@ -11,7 +11,7 @@ The two remaining components of high-contrast imaging are the data acquisition t
 
 ## Objectives
 
-A multitude of image processing algorithms and pipelines for processing high contrast imaging data have been developed in the past thirteen years. [Pueyo 2018](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. The goal of this challenge is not only to compare, in a fair and robust way, existing post-processing algorithms but to spark new collaborations/ideas, share knowledge, and ultimately to maximize the scientific return of existing and future near-infrared high-contrast imaging instruments.
+A multitude of image processing algorithms and pipelines for processing high contrast imaging data have been developed in the past thirteen years. [Pueyo (2018)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1) offers an ample discussion on the exoplanet detection algorithms proposed in the literature. The goal of this challenge is not only to compare, in a fair and robust way, existing post-processing algorithms but to spark new collaborations/ideas, share knowledge, and ultimately to maximize the scientific return of existing and future near-infrared high-contrast imaging instruments.
 
 Computer science and machine learning fields have a long tradition conducting data challenges and competitions. Repositories of benchmark (curated) datasets are an integral part of the field of machine learning. We want to integrate these practices to the field of high-contrast imaging. In the future, the process of testing new algorithms will be much straightforward and robust, once the community adopts the standard metrics (with their open-source implementations) and the benchmark library resulting from this challenge.  
 
