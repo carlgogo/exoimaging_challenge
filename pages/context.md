@@ -1,4 +1,4 @@
-Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. This challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. 
+Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. This challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. This data challenge has direct support from the Grenoble Alpes Data Institute, France.
 
 In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository or an email to [carlos.gomez@univ-grenoble-alpes.fr](mailto:carlos.gomez@univ-grenoble-alpes.fr). All the benchmark datasets, metrics and results will be available at the end of the competition.
 
