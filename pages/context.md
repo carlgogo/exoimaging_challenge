@@ -1,7 +1,3 @@
-Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. This challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. This data challenge has direct support from the Grenoble Alpes Data Institute (Grenoble, France).
-
-In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository or an email to [carlos.gomez@univ-grenoble-alpes.fr](mailto:carlos.gomez@univ-grenoble-alpes.fr). All the benchmark datasets, metrics and results will be available at the end of the competition.
-
 Direct imaging is the next big step in the hunt of extrasolar planets. Observing exoplanets using ground-based telescopes is a very challenging task. The main difficulties are the huge difference in brightness between the host star and its potential companions, the small angular separation between them, and the image degradation caused by the Earth's turbulent atmosphere. Therefore, ground-based high-contrast imaging relies on the use of adaptive optics for wavefront correction and coronagraphy for the suppression of light coming from the star. The following video, prepared by the NASA Exoplanet Exploration Program, explains in simple terms the role of coronagraphy and adaptive optics with deformable mirrors in high-contrast imaging.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SpzeS7KBGkw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
