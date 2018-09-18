@@ -10,7 +10,7 @@ Therefore we envision two phases for this challenge, each one with its own kind 
 
 In a second scoreboard, we will focus on the computation of ROC curves. For this purpose, we will require the source code of the algorithm (Python), an executable file or a Docker image. Additionally, we require the detection thresholds for the thresholding and counting sources procedure. The ROC curve computation boils down to repeating the above procedure of injecting companions in the benchmark datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. 
 
-> Only the participants that agree to submit their code will be included in this more informative scoreboard.  
+> Only the participants who agree to submit their code will be included in the second phase of this data challenge.  
 
 The implementation of the source counting and ROC curves procedures will be open sourced (on GitHub) for the sake of transparency and fairness. This implementation shall serve as a reference for future studies on image processing algorithms for direct imaging of exoplanets.
 

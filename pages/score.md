@@ -1,1 +1,1 @@
-We have chosen [Codalab](http://codalab.org/) to host this challenge. 
+The challenge is being implemented in [Codalab](http://codalab.org/), a framework for accelerating reproducible computational research. The participants will enter the competition by creating and account and will make their submissions directly using Codalab's interface. The scoreboard will be updated automatically after each submission.  
