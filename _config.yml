@@ -1,5 +1,5 @@
-title: Exoplanet imaging data challenge (phase 1)
-description: Community-wide data challenge for high-contrast imaging data processing. Its main goal is the fair comparison of algorithms for post-processing of high-contrast imaging sequences
+title: Exoplanet imaging data challenge (Stage 1, detection)
+description: Community-wide data challenge for high-contrast imaging data processing. Goal: the fair comparison of algorithms for post-processing high-contrast imaging sequences
 markdown: kramdown
 show_downloads: true
 git_branch: master

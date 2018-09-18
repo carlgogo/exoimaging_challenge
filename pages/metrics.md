@@ -1,6 +1,6 @@
 This challenge is focusing on the exoplanet direct detection task. To measure the detection capability of different algorithms we will rely on the injection of fake companions to measure the true positive rate (TPR) and the number of false positives (FPs). The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see [Jensen Clem et al. 2017](https://arxiv.org/abs/1711.01215)). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature. We are considering the option of computing ROC curves by injecting a large number of fake companions to compare the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold.
 
-| ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_illustrations.003.png){:width="800px"} |
+| ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig3.001.png){:width="800px"} |
 |---|
 | Figure 3. ROC curves in the high-contrast imaging literature. Top-left from [Gomez Gonzalez et al. 2016](https://arxiv.org/abs/1602.08381), top-right from [Ruffio et al. 2017](https://arxiv.org/abs/1705.05477), bottom-left from [Gomez Gonzalez et al. 2018](https://arxiv.org/abs/1712.02841) and bottom-right from [Pueyo 2018](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1). |
 
