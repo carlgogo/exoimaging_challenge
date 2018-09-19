@@ -10,6 +10,8 @@ In a second scoreboard, we will focus on the computation of ROC curves. For this
 
 > Only the participants who agree to submit their code will be included in the second phase of this data challenge.  
 
+### Starting kit
+
 The implementations of the source counting and ROC curves procedures are included in the open source Vortex Image Processing package ([GitHub repo](https://github.com/vortex-exoplanet/VIP)) for the sake of transparency and fairness. A data challenge starting kit, for the Python language, can be found [here](https://github.com/carlgogo/exoimaging_challenge_extras). It gives a detailed explanation of the source counting (true and false positives) procedure on detection maps. The starting kit can also be executed on the cloud thanks to [Binder](https://mybinder.org/v2/gh/carlgogo/exoimaging_challenge_extras/master). This implementation shall serve as a reference for future studies on image processing algorithms for direct imaging of exoplanets.
 
 Optionally, the metrics could be calculated both for the case of single instruments and taking into account the whole benchmark library (multiple instruments, perhaps focusing on different distance regimes from the star).

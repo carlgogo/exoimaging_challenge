@@ -19,7 +19,7 @@ In the spirit of openness, anyone can contribute at any stage of the challenge b
 ## Datasets
 {% include_relative pages/datasets.md %}
 
-## Metrics
+## Metrics 
 {% include_relative pages/metrics.md %}
 
 ## Scoreboard 
