@@ -15,7 +15,7 @@ For the sub-challenge on ADI post-processing, each dataset will be composed of:
  
 For the second sub-challenge, on spectrally dispersed data, a vector of wavelengths will be included. 
 
-The datasets will be cropped to focus on the innermost 20 lambda/D. To be able to measure the detection capability of different algorithms, we will inject from zero to five point-sources in each dataset (standard injection process without accounting for smearing or variable photometry). For multi-channel mSDI we will use three template spectra for fake planet injection.
+The datasets will be cropped to focus on the innermost 20 lambda/D. To be able to measure the detection capability of different algorithms, we will inject from none to five point-sources in each dataset (standard injection process without accounting for smearing or variable photometry). For multi-channel mSDI we will use three template spectra for fake planet injection.
 
 The challenge datasets will be stored in [FITS](https://en.wikipedia.org/wiki/FITS) format. This is a format with long tradition in astronomy and can be easily loaded in any programming language or environment (Python, Matlab, IDL, R, C, etc).
 
