@@ -2,9 +2,9 @@
 ---
 # Introduction
 
-Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. The challenge is *being* prepared in collaboration with several members of the high-contrast imaging community. This effort has direct support from the Grenoble Alpes Data Institute (Grenoble, France).
+Hereafter, we present a community-wide data challenge for exoplanets direct detection with ground-based high-contrast imaging. The challenge is organized in collaboration with several members of the high-contrast imaging community (see [below](#team)). This effort has direct support from the Grenoble Alpes Data Institute (Universitè Grenoble Alpes, France).
 
-In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository. If you have questions, suggestions or complaints please open and issue on this repository or send an email to [carlos.gomez@univ-grenoble-alpes.fr](mailto:carlos.gomez@univ-grenoble-alpes.fr) or any other of the organizers. All the benchmark datasets, metrics and results will be available (open-sourced) at the end of the competition.
+In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository. If you have questions, suggestions or complaints please open and issue on this repository or contact the organization team. All the benchmark datasets, metrics and results will be available (open-sourced) at the end of the competition.
 
 ---
 # Scientific context
@@ -39,7 +39,7 @@ A non-exhaustive list of past and on-going astronomical data challenges can be f
 * [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://plasticcblog.wordpress.com/).
 
 ---
-# Organization team and collaborators
+# <a name="team"></a>Organization team and collaborators
 
 ## Core team
 
