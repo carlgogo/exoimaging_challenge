@@ -6,18 +6,26 @@ This challenge is focusing on the exoplanet direct detection task. To measure th
 
 ### Phases
 
-Therefore we envision two phases for this challenge, each one with its own type of submission. In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, are a detection map and a critical detection threshold for this specific algorithm (the accepted threshold at which a detection is claimed). A detection map must be provided for each challenge datacube. Then, by thresholding each detection map, we can count the true detections and the number of false positives across all the datasets. If *Ninj* is the total number of injections (for all the challenge datasets) and *Ndet* is the number of detections made by a given participant with a given algorithm (also for all the challenge datasets), then the true postive rate (TPR) is *TPR = Ndet / Ninj*. The contrast (brightness) interval for the injection of synthetic companions will be estimated by using the median subtraction algorithm as a baseline. The S/N of a population of injected companions will be measured in the median subtracted frames. The interval of fluxes (or contrasts as a function of the separation from the star) will be defined by checking which contrast corresponds to S/Ns in the 1 to 4 interval. The participants of the data challenge will have about 4 months for making and improving their submissions to the phase 1. Two scoreboards will be computed, one for the sub-challenge on ADI data (3d arrays) and one for the sub-challenge on ADI+IFS cubes (4d arrays). 
+Therefore we envision two phases for this challenge, each one with its own type of submission. In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, are a detection map and a critical detection threshold for this specific algorithm (the accepted threshold at which a detection is claimed). A detection map must be provided for each challenge datacube. Then, by thresholding each detection map and counting the true and false positives, we define the true positive rate (TPR) and the false discovery/detection rate (FDR):
+* ``TPR = Ndet / Ninj``, where ``Ninj`` is the total number of injections (for all the challenge datasets) and ``Ndet`` is the number of detections made by a given participant with a given algorithm (also for all the challenge datasets),
+* ``FDR = NFps / Ndet``, where ``NFps`` is the total number of false positives (Type I error) made by a given participant with a given algorithm.
 
-> Important: Each entry in the challenge scoreboard must correspond to a single algorithm. As a participant you can have as many entries as you want, each one using a different algorithmic approach. 
+The contrast (brightness) interval for the injection of synthetic companions will be estimated by using the median subtraction algorithm as a baseline. The S/N of a population of injected companions will be measured in the median subtracted frames. The interval of fluxes (or contrasts as a function of the separation from the star) will be defined by checking which contrast corresponds to S/Ns in the 1 to 4 interval. The participants of the data challenge will have about 4 months for making and improving their submissions to the phase 1. Two scoreboards will be computed, one for the sub-challenge on ADI data (3d arrays) and one for the sub-challenge on ADI+IFS cubes (4d arrays).
+
+> Note a: Each submission must correspond to the results of applying the same algorithm to all the datasets. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard).
+
+> Note b: The challenge interface will require a short description of the algorithm you used for a each submission.
+
+> Note c: As a participant you may submit as many results as you want. This only updates your position on the scoreboard.
 
 In a second phase, we will focus on the computation of ROC curves. For this purpose, we will require the source code of the algorithm (Python), an executable file or a Docker image. Additionally, we require the detection thresholds for the thresholding and counting sources procedure. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. 
 
-> Only the participants who agree to submit their code will be included in the second phase of this data challenge.  
+> Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.
 
 |           |Sub-challenge 1 - ADI  |Sub-challenge 2 - ADI+IFS 
 |:--:       |:--:                   |:--:
 |**Phase**  |**Metric**             |**Metric**                    
-| 1         |TPR and #Fps           |TPR and #Fps      
+| 1         |TPR and FDR            |TPR and FDR
 | 2         |ROC space              |ROC space      
 
 ### Starting kit
