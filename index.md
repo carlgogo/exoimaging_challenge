@@ -38,4 +38,25 @@ A non-exhaustive list of past and on-going astronomical data challenges can be f
 * [WFIRST Exoplanet Data Challenges](https://wfirst.ipac.caltech.edu/sims/CGI_Data_Challenges.html).
 * [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://plasticcblog.wordpress.com/).
 
+---
+# Organization team and collaborators
+
+## Core team
+
+* Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design, webpage, metrics, coordination, logistics)*
+* Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design, template spectra for fake companions)*
+* Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab, metrics)*
+* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics, data gathering)*
+* Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
+
+## Collaborators (non-exhaustive list)
+
+Those who have participated in discussions or provided data for a given high-contrast imaging instrument:
+* Olivier Absil
+* David Mouillet
+* Dimitri Mawet
+* Jean-Baptiste Ruffio
+* Michael Bottom
+* Jordan Stone
+
 
