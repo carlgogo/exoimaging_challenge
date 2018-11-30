@@ -29,7 +29,7 @@ In a second phase, we will focus on the computation of ROC curves. For this purp
 
 > Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.
 
-|           |Sub-challenge 1 - ADI  |Sub-challenge 2 - ADI+IFS 
+|           |3D Sub-challenge - ADI |4D Sub-challenge - ADI+IFS
 |:--:       |:--:                   |:--:
 |**Phase**  |**Metric**             |**Metric**                    
 | 1         |F1, TPR and FDR        |F1, TPR and FDR

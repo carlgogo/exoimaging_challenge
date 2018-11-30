@@ -7,21 +7,21 @@ In order to reduce the need of domain knowledge (e.g. the expertize related to a
 | Figure 2. Schematic representation of the high-contrast imaging data processing pipeline, for the case of a LBTI/LMIRCam HR8799 data cube. Notice how from a single data cube we obtain one view of the star's vicinity and an associated detection map where we could detect potential point-like sources (and hopefully bound companions).  |
 
 For the sub-challenge on ADI post-processing, each dataset will be composed of:
- * a calibrated cube (sequence of images),
+ * a calibrated cube (sequence of images or 3D cube),
  * a vector of parallactic angles,
  * the pixel scale value,
  * the associated PSF template, 
  * complete description of the calibration procedure and a link to the software used (instrument dedicated pipeline).
  
-For the second sub-challenge, on spectrally dispersed data, a vector of wavelengths will be included. 
+For the second sub-challenge, on spectrally dispersed data, a 4D cube will be provided instead and a vector of wavelengths will be attached.
 
-The datasets will be cropped to focus on the innermost 20 lambda/D. To be able to measure the detection capability of different algorithms, we will inject from none to five point-sources in each dataset (standard injection process without accounting for smearing or variable photometry). For multi-channel mSDI we will use three template spectra for fake planet injection.
+The datasets will be cropped to focus on the innermost 20 lambda/D. To be able to measure the detection capability of different algorithms, we will inject from *none to five point-sources* in each dataset (standard injection process without accounting for smearing or variable photometry). For spectrally dispersed data we will use three template spectra when injecting the fake companions.
 
-The challenge datasets will be stored in [FITS](https://en.wikipedia.org/wiki/FITS) format. This is a format with long tradition in astronomy and can be easily loaded in any programming language or environment (Python, Matlab, IDL, R, C, etc).
+The challenge datasets will be stored in [FITS](https://en.wikipedia.org/wiki/FITS) format. This is a format with long tradition in astronomy and can be easily loaded in any programming language or environment (Python, Matlab, IDL, R, C, etc). The most convenient software for quick visualization of the cubes is the SAOImageDS9 software which can be obtained [here](http://ds9.si.edu/site/Download.html).
 
 ### HCI benchmark library
 
-After the data challenge is finished, the contributed datasets (without injected companions or any other modification) will constitute the benchmark library that will be available to the community. It is mandatory that the submitted datasets remain *secret* during the duration of the challenge. The HCI benchmark library will be stored in a public repository, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms.
+After the data challenge is finished, the contributed datasets (as they were provided and without injected companions) will constitute the benchmark library that will be made available for the community. It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. The HCI benchmark library will be stored in a public repository, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms.
 
-> TBD: What infrastructure could we use to store the HCI benchmark library? A few options: NASA Exoplanet Archive, DIVA database, Zenodo, OSF. 
+> TBD: What infrastructure could we use to store the HCI benchmark library after the challenge is finished? A few options: NASA Exoplanet Archive, DIVA database, Zenodo, OSF.
 
