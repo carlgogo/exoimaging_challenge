@@ -44,6 +44,7 @@ A non-exhaustive list of past and on-going astronomical data challenges can be f
 ## Core team
 
 * Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, webpage content and Codalab implementation)*
+* Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(pre-processing of the contributed datasets)*
 * Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design and template spectra for fake companions)*
 * Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
 * Tiffany Meshkat, <meshkat@caltech.edu> *(logistics and data gathering)*
