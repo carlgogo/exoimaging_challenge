@@ -23,5 +23,4 @@ The challenge datasets will be stored in [FITS](https://en.wikipedia.org/wiki/FI
 
 After the data challenge is finished, the contributed datasets (as they were provided and without injected companions) will constitute the benchmark library that will be made available for the community. It is mandatory that the submitted datasets remain *secret* for the duration of the challenge. The HCI benchmark library will be stored in a public repository, ensuring the long term preservation of data, and will serve the next generation of researchers who will be able to re-use the benchmark datasets for quick validation of novel algorithms.
 
-> TBD: What infrastructure could we use to store the HCI benchmark library after the challenge is finished? A few options: NASA Exoplanet Archive, DIVA database, Zenodo, OSF.
 
