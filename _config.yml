@@ -1,7 +1,7 @@
-title: Exoplanet imaging data challenge (stage 1 - source detection)
+title: Exoplanet imaging data challenge (source detection)
 description: Community-wide data challenge for high-contrast imaging data processing. Main goal -- the fair comparison of algorithms for post-processing high-contrast imaging sequences.
 markdown: kramdown
-show_downloads: true
+show_downloads: false
 git_branch: master
 logo_url: https://carlgogo.github.io/exoimaging_challenge/assets/images/challenge_logo_LR.png
 google_analytics: UA-84473187-3
