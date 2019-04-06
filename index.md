@@ -24,8 +24,29 @@ We are about to launch the data challenge mid April 2019, as soon as we finish i
 ## Metrics and scoreboard
 {% include_relative pages/metrics.md %}
 
+## Organization team and collaborators
+
+### Core team
+
+* Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, webpage content and Codalab implementation)*
+* Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(pre-processing of the contributed datasets)*
+* Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design and template spectra for fake companions)*
+* Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
+* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics and data gathering)*
+* Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
+
+### Collaborators (non-exhaustive list)
+
+Those who have participated in discussions or provided data for a given high-contrast imaging instrument:
+* Olivier Absil
+* David Mouillet
+* Dimitri Mawet
+* Jean-Baptiste Ruffio
+* Michael Bottom
+* Jordan Stone
+
 ---
-# References
+# Links to other astronomical data challenges
 A non-exhaustive list of past and on-going astronomical data challenges can be found below.
 
 * Supernova Photometric Classification Challenge (Kessler 2010). [Arxiv](https://arxiv.org/abs/1001.5210).
@@ -36,27 +57,4 @@ A non-exhaustive list of past and on-going astronomical data challenges can be f
 * [WFIRST: Microlensing Analysis Data Challenge](http://microlensing-source.org/).
 * [WFIRST Exoplanet Data Challenges](https://wfirst.ipac.caltech.edu/sims/CGI_Data_Challenges.html).
 * [The Photometric LSST Astronomical Time-Series Classification Challenge (PLAsTiCC)](https://plasticcblog.wordpress.com/).
-
----
-# <a name="team"></a>Organization team and collaborators
-
-## Core team
-
-* Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, webpage content and Codalab implementation)*
-* Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(pre-processing of the contributed datasets)*
-* Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design and template spectra for fake companions)*
-* Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
-* Tiffany Meshkat, <meshkat@caltech.edu> *(logistics and data gathering)*
-* Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
-
-## Collaborators (non-exhaustive list)
-
-Those who have participated in discussions or provided data for a given high-contrast imaging instrument:
-* Olivier Absil
-* David Mouillet
-* Dimitri Mawet
-* Jean-Baptiste Ruffio
-* Michael Bottom
-* Jordan Stone
-
 

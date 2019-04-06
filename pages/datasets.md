@@ -1,6 +1,6 @@
 A list of datasets is being compiled for the purpose of this challenge. We aim to collect 3 to 5 datasets from a few different instruments: SPHERE, GPI, NIRC2, SCEXAO, and LMIRCam. This is to ensure the challenge library contains a diverse set of datasets coming from instruments with different characteristics: slow/high speed cameras, broadband/filtered sequences, small/large total rotation, coronagraph type, etc. 
 
-In order to reduce the need of domain knowledge (e.g. the expertize related to a specific instrument), the datasets will be calibrated/pre-processed using the standard pipelines of each instrument. The characteristics of each dataset are stored on a public [spreadsheet](pages/datasets_table) ([direct link to the table](https://docs.google.com/spreadsheets/d/1Zx7tTGNBMhCXpAa5KIoufdvMrxtjfA3q2gX03APMkaM/edit?usp=sharing)). 
+In order to reduce the need of domain knowledge (e.g. the expertize related to a specific instrument), the datasets will be calibrated/pre-processed using the standard pipelines of each instrument. The characteristics of each dataset and the pre-processing procedures applied to them are recorded on a public [spreadsheet](pages/datasets_table) ([direct link to the table](https://docs.google.com/spreadsheets/d/1Zx7tTGNBMhCXpAa5KIoufdvMrxtjfA3q2gX03APMkaM/edit?usp=sharing)). 
 
 | ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig2.001.png){:width="700px"} |
 |---|
