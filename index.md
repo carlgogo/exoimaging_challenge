@@ -13,17 +13,16 @@ In the spirit of openness, anyone can contribute at any stage of the challenge b
 ---
 # The challenge
 
+We are about to launch the data challenge mid April 2019, as soon as we finish ironing out the last details. In particular, we are considering the organization of a workshop on image processing for exoplanet direct imaging that could at the same time host a hackathon session for the participants of the data challenge. Please contact the organizers if you have questions, suggestions or are willing to provide support of any kind. 
+
 ## Sub-challenges
 {% include_relative pages/subchallenges.md %}
 
 ## Datasets
 {% include_relative pages/datasets.md %}
 
-## Metrics 
+## Metrics and scoreboard
 {% include_relative pages/metrics.md %}
-
-## Scoreboard 
-{% include_relative pages/score.md %}
 
 ---
 # References

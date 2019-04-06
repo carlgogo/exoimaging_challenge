@@ -42,4 +42,7 @@ The implementations of the planet injection, source counting and ROC curve gener
 The extras repository also contains a data challenge starting kit, in the form of a Jupyter notebook (``DC1_starting_kit.ipynb``), which explains in detail the source counting procedure on detection maps (to get the true and false positives). The starting kit can also be executed on the cloud thanks to [Binder](https://mybinder.org/v2/gh/carlgogo/exoimaging_challenge_extras/master). This implementation shall serve as a reference for future studies on image processing algorithms for direct imaging of exoplanets.
 
 
+### Scoreboard
+
+The challenge is implemented on [Codalab](http://codalab.org/), a framework for accelerating reproducible computational research. The participants will enter the competition by creating their own account on Codalab and following the link of the challenge. The scoreboards will be updated automatically after each submission to the Codalab interface.
 
