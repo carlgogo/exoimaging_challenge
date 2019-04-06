@@ -4,7 +4,7 @@ In order to reduce the need of domain knowledge (e.g. the expertize related to a
 
 | ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig2.001.png){:width="700px"} |
 |---|
-| Figure 2. Schematic representation of the high-contrast imaging data processing pipeline, for the case of a LBTI/LMIRCam HR8799 data cube. Notice how from a single data cube we obtain one view of the star's vicinity and an associated detection map where we could detect potential point-like sources (and hopefully bound companions).  |
+| Figure 2. *Schematic representation of the high-contrast imaging data processing pipeline, for the case of a LBTI/LMIRCam HR8799 data cube. Notice how from a single data cube we obtain one view of the star's vicinity and an associated detection map where we could detect potential point-like sources (and hopefully bound companions)*.  |
 
 For the sub-challenge on ADI post-processing, each dataset will be composed of:
  * a calibrated cube (sequence of images or 3D cube),

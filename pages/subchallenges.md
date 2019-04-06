@@ -8,5 +8,5 @@ This first competition will consider two sub-challenges focused on the two most 
 
 | ![ADI_SDI](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig1.001.png){:width="700px"} |
 | --- |
-| Figure 1. Data formats used in this challenge depending on the observing technique: the left panel shows a single ADI data cube and the right panel shows a single multi-channel SDI data cube. |
+| Figure 1. *Data formats used in this challenge depending on the observing technique: the left panel shows a single ADI data cube and the right panel shows a single multi-channel SDI data cube*. |
 

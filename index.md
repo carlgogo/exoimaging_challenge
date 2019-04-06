@@ -35,9 +35,9 @@ We are about to launch the data challenge mid April 2019, as soon as we finish i
 * Tiffany Meshkat, <meshkat@caltech.edu> *(logistics and data gathering)*
 * Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
 
-### Collaborators (non-exhaustive list)
+### Collaborators
 
-Those who have participated in discussions or provided data for a given high-contrast imaging instrument:
+Below we list those who have participated in discussions or provided data for a given high-contrast imaging instrument:
 * Olivier Absil
 * David Mouillet
 * Dimitri Mawet
