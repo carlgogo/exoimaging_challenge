@@ -1,5 +1,5 @@
 title: Exoplanet imaging data challenge (source detection)
-description: Community-wide data challenge for high-contrast imaging data processing. Main goal - the fair comparison of algorithms for post-processing high-contrast imaging sequences
+description: Community-wide data challenge for high-contrast imaging data processing. Main goal - the fair comparison of image post-processing algorithms for source detection
 markdown: kramdown
 show_downloads: true
 git_branch: master
