@@ -22,6 +22,9 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: mmistakes/minimal-mistakes
 
 theme:
 wiki_folder: wiki
