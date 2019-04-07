@@ -7,15 +7,12 @@ In order to reduce the need of domain knowledge (e.g. the expertize related to h
 | Figure 2. *Schematic representation of the high-contrast imaging data processing pipeline, for the case of a LBTI/LMIRCam HR8799 data cube. Notice how from a single data cube we obtain one view of the star's vicinity and an associated detection map where we could detect potential point-like sources (and hopefully bound companions)*.  |
 
 For the sub-challenge on ADI post-processing, each dataset will be composed of:
- * instrument_cube_id.fits (3d array),
- * instrument_pa_id.fits (1d array, vector of parallactic angles),
- * instrument_pxscale_id.fits (float value, the pixel scale value in arc/px),
- * instrument_psf_id.fits (2d array, the associated PSF template), 
+ * ``instrument_cube_id.fits`` (3d array),
+ * ``instrument_pa_id.fits`` (1d array, vector of parallactic angles),
+ * ``instrument_pxscale_id.fits`` (float value, the pixel scale value in arc/px),
+ * ``instrument_psf_id.fits`` (2d array, the associated PSF template), 
  
-where id is a positive integer and instrument is one of the following: "nirc2", "lmircam", "gpi", "sphere_irdis", "sphere_ifs". For the second sub-challenge, on spectrally dispersed data, a 4D cube will be provided instead and a vector of wavelengths will be attached. 
-
-Optionally, in the case of spectrally dispersed data, we will have an additional file: 
-instrument_wvs_id.fits (1d array)
+where id is a positive integer and instrument is one of the following: ``nirc2``, ``lmircam``, ``sphere_irdis``, ``sphere_ifs`` or ``gpi``. For the second sub-challenge, on spectrally dispersed data, a 4D cube will be provided along with a vector of wavelengths (instrument_wvs_id.fits). 
 
 The datasets will be cropped to focus on the innermost 20 lambda/D. To be able to measure the detection capability of different algorithms, we will inject from *none to five point-sources* in each dataset (standard injection process without accounting for smearing or variable photometry). For spectrally dispersed data we will use three template spectra when injecting the fake companions.
 
