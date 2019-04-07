@@ -7,7 +7,7 @@ Hereafter, we present a community-wide data challenge for exoplanets direct dete
 In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository. If you have questions, suggestions or issues when submitting, please open and issue on this repository or contact any of the organizers (see the Core team section). All the benchmark datasets, metrics and results will be publicly available at the end of the competition.
 
 ---
-# Scientific context
+# Scientific context and objectives
 {% include_relative pages/context.md %}
 
 ---
