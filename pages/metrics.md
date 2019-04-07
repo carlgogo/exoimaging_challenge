@@ -1,6 +1,6 @@
 This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. 
 
-### Phases
+## Phases
 
 This challenge will consist of two consecutive phases (while the sub-challenges run in parallel), each one with its own type of submission and metrics. On the table below, you can find a summary of the metrics used for each phase:
 
@@ -37,14 +37,14 @@ In this phase, we will focus on the computation of ROC curves for comparing the 
 
 > Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.   
 
-### Starting kit
+## Starting kit
 
 The implementations of the planet injection, source counting and ROC curve generation algorithms are included in the open source [Vortex Image Processing package](https://github.com/vortex-exoplanet/VIP) for the sake of transparency and fairness. Other code related to the data challenge is available at the [Data Challenge Extras repository](https://github.com/carlgogo/exoimaging_challenge_extras). Here we also share a Python script (``DC1_codalab_starting_kit.py``) that illustrates how to create the outputs to be submitted for participating in the data challenge.
  
 The extras repository also contains a data challenge starting kit, in the form of a Jupyter notebook (``DC1_starting_kit.ipynb``), which explains in detail the source counting procedure on detection maps (to get the true and false positives). The starting kit can also be executed on the cloud thanks to [Binder](https://mybinder.org/v2/gh/carlgogo/exoimaging_challenge_extras/master). This implementation shall serve as a reference for future studies on image processing algorithms for direct imaging of exoplanets.
 
 
-### Codalab
+## Codalab
 
 The challenge is implemented on [Codalab](http://codalab.org/), a framework for accelerating reproducible computational research. The participants will enter the competition by creating their own account on Codalab and following the link of the challenge. The scoreboards will be updated automatically after each submission to the Codalab interface. The challenge interface will require a short description of the algorithm you used for a each submission, please don't forget to fill in this information. Participants may submit as many times as they want. The scoring routines that compute the metrics can be found on the [Data Challenge Extras repository](https://github.com/carlgogo/exoimaging_challenge_extras).
 
