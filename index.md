@@ -11,22 +11,21 @@ In the spirit of openness, anyone can contribute at any stage of the challenge b
 {% include_relative pages/context.md %}
 
 ---
-# The challenge
-
-We are about to launch the data challenge mid April 2019, as soon as we finish ironing out the last details. In particular, we are considering the organization of a workshop on image processing for exoplanet direct imaging that could at the same time host a hackathon session for the participants of the data challenge. Please contact the organizers if you have questions, suggestions or are willing to provide support of any kind. 
-
-## Sub-challenges
+# Sub-challenges
 {% include_relative pages/subchallenges.md %}
 
-## Datasets
+---
+# Datasets
 {% include_relative pages/datasets.md %}
 
-## Metrics and scoreboard
+---
+# Metrics and scoreboard
 {% include_relative pages/metrics.md %}
 
-## Organization team and collaborators
+---
+# Organization team and collaborators
 
-### Core team
+## Core team
 
 * Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, webpage content and Codalab implementation)*
 * Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(pre-processing of the contributed datasets)*
@@ -35,7 +34,7 @@ We are about to launch the data challenge mid April 2019, as soon as we finish i
 * Tiffany Meshkat, <meshkat@caltech.edu> *(logistics and data gathering)*
 * Rebecca Jensen-Clem, <rjensenclem@berkeley.edu> *(testing the Codalab submission engine)*
 
-### Collaborators
+## Collaborators
 
 Below we list those who have participated in discussions or provided data for a given high-contrast imaging instrument:
 * Olivier Absil
