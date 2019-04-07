@@ -1,12 +1,14 @@
-This challenge is focusing on the exoplanet direct detection task. To measure the detection capability of different algorithms we will rely on the injection of fake companions to measure the true positive rate (TPR) and the number of false positives (FPs). The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see [Jensen Clem et al. 2017](https://arxiv.org/abs/1711.01215)). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature. We are considering the option of computing ROC curves by injecting a large number of fake companions to compare the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold.
-
-| ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig3.001.png){:width="800px"} |
-|---|
-| Figure 3. *ROC curves in the high-contrast imaging literature. Top-left from [Gomez Gonzalez et al. 2016](https://arxiv.org/abs/1602.08381), top-right from [Ruffio et al. 2017](https://arxiv.org/abs/1705.05477), bottom-left from [Gomez Gonzalez et al. 2018](https://arxiv.org/abs/1712.02841) and bottom-right from [Pueyo 2018](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)*. |
+This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. Therefore we envision two phases for this challenge, each one with its own type of submission and metrics.
 
 ### Phases
 
-Therefore we envision two phases for this challenge, each one with its own type of submission. In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: gpi_detmap_1.fits, gpi_detmap_2.fits, gpi_detmap_3.fits, gpi_detmap_4.fits, gpi_detmap_5.fits, sphere_ifs_detmap_1, sphere_ifs_detmap_2, sphere_ifs_detmap_3, sphere_ifs_detmap_4, sphere_ifs_detmap_5, gpi_fwhm_1.fits, gpi_fwhm_2.fits, gpi_fwhm_3.fits, gpi_fwhm_4.fits, gpi_fwhm_5.fits, sphere_ifs_fwhm_1, sphere_ifs_fwhm_2, sphere_ifs_fwhm_3, sphere_ifs_fwhm_4, sphere_ifs_fwhm_5, detection_threshold.fits. 
+|           |Sub-challenge 1: ADI   |Sub-challenge 2: ADI+mSDI
+|:--:       |:--:                   |:--:
+|*Phase*    |*Metric*               |*Metric*                    
+| 1         |F1, TPR and FDR        |F1, TPR and FDR
+| 2         |ROC space              |ROC space   
+
+**Phase 1**: In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: gpi_detmap_1.fits, gpi_detmap_2.fits, gpi_detmap_3.fits, gpi_detmap_4.fits, gpi_detmap_5.fits, sphere_ifs_detmap_1, sphere_ifs_detmap_2, sphere_ifs_detmap_3, sphere_ifs_detmap_4, sphere_ifs_detmap_5, gpi_fwhm_1.fits, gpi_fwhm_2.fits, gpi_fwhm_3.fits, gpi_fwhm_4.fits, gpi_fwhm_5.fits, sphere_ifs_fwhm_1, sphere_ifs_fwhm_2, sphere_ifs_fwhm_3, sphere_ifs_fwhm_4, sphere_ifs_fwhm_5, detection_threshold.fits. 
 
 By thresholding each detection map and counting the true and false positives, we define several metrics:
 
@@ -23,15 +25,15 @@ Two scoreboards will be computed, one for the sub-challenge on ADI data (3D cube
 
 The contrast (brightness) value for injecting each synthetic companion will be estimated wrt a baseline algorithm. First, the S/N of a population of injected companions will be measured on residual final frames (processed with the baseline algorithm). Then, the interval of fluxes as a function of the separation from the star will be defined by checking which contrast corresponds to S/Ns in given interval (e.g. 1 to 4). This procedure is implemented [here](https://github.com/carlgogo/exoimaging_challenge_extras/blob/master/flux_estimation.py).
 
-In a second phase, we will focus on the computation of ROC curves. For this purpose, we will require the source code of the algorithm (Python), an executable file or a Docker image. Additionally, we require the detection thresholds for the thresholding and counting sources procedure. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. 
+**Phase 2**: The community is converging on the usage of receiver operating characteristic (ROC) curves for the performance assessment of high-contrast imaging post-processing algorithms (see [Jensen Clem et al. 2017](https://arxiv.org/abs/1711.01215)). In Fig. 3 is displayed a compilation of some ROC curves from the high-contrast imaging literature. 
 
-> Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.
+| ![data](https://raw.githubusercontent.com/carlgogo/exoimaging_challenge/master/assets/images/challenge_fig3.001.png){:width="600px"} |
+|---|
+| Figure 3. *ROC curves in the high-contrast imaging literature. Top-left from [Gomez Gonzalez et al. 2016](https://arxiv.org/abs/1602.08381), top-right from [Ruffio et al. 2017](https://arxiv.org/abs/1705.05477), bottom-left from [Gomez Gonzalez et al. 2018](https://arxiv.org/abs/1712.02841) and bottom-right from [Pueyo 2018](https://link.springer.com/referenceworkentry/10.1007/978-3-319-30648-3_10-1)*. |
 
-|           |Sub-challenge 1: ADI   |Sub-challenge 2: ADI+mSDI
-|:--:       |:--:                   |:--:
-|*Phase*    |*Metric*               |*Metric*                    
-| 1         |F1, TPR and FDR        |F1, TPR and FDR
-| 2         |ROC space              |ROC space      
+In this phase, we will focus on the computation of ROC curves for comparing the trade-off of TPR and number of FPs for different algorithms as a function of the detection threshold. The ROC curve computation boils down to repeating the above procedure of injecting companions in the empty challenge datasets, computing detection maps, thresholding them and counting sources, ie. the detection state and the number of false positives for different detection criteria. This expensive procedure will be performed locally, therefore the source code of the algorithm (implemented on an open source language such as Python or R), an executable file or a Docker image will be required from the participants. Additionally, the participant must submit the detection thresholds for the thresholding and blob counting procedure.
+
+> Important: only the participants who agree to submit their code will be included in the second phase of this data challenge.   
 
 ### Starting kit
 
