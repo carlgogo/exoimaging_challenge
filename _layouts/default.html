@@ -82,7 +82,7 @@
               <input type="hidden" name="type" value="Wikis">
             {% endif %}
             <p></p>
-            <input type="text" name="q" placeholder="..."><input type="submit" value="Search">
+            <input type="text" name="q" placeholder=""><input type="submit" value="Search">
             <br><br>
           </form>
         {% endif %}
@@ -124,7 +124,7 @@
     
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#toc').toc({ title: '<i>Contents</i>'});
+            $('#toc').toc({ title: '<strong>Contents</strong>'});
         });
     </script>
   </body>
