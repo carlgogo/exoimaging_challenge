@@ -1,12 +1,14 @@
-This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. Therefore we envision two phases for this challenge, each one with its own type of submission and metrics.
+This challenge is focusing on the task of exoplanet direct detection. In order to measure the detection capability of different algorithms, we will rely on the injection of fake companions and the computation of several relevant metrics, such as the true positive rate or the number of false positives. 
 
 ### Phases
 
+This challenge will consist of two consecutive phases (while the sub-challenges run in parallel), each one with its own type of submission and metrics. On the table below, you can find a summary of the metrics used for each phase:
+
 |           |Sub-challenge 1: ADI   |Sub-challenge 2: ADI+mSDI
 |:--:       |:--:                   |:--:
-|*Phase*    |*Metric*               |*Metric*                    
-| 1         |F1, TPR and FDR        |F1, TPR and FDR
-| 2         |ROC space              |ROC space   
+|**Phase**  |*Metric*               |*Metric*                    
+|**1**      |F1, TPR and FDR        |F1, TPR and FDR
+|**2**      |ROC space              |ROC space   
 
 **Phase 1**: In the first phase, the expected output from an algorithm, i.e. the submission from a given participant, consists of a list of detection maps (nine for the first sub-challenge and ten for the second), a detection threshold (the accepted threshold at which a detection is claimed) and the FHWM values for each dataset. For example, for generating a submission file to the second sub-challenge (ADI+mSDI) you must include the following files: gpi_detmap_1.fits, gpi_detmap_2.fits, gpi_detmap_3.fits, gpi_detmap_4.fits, gpi_detmap_5.fits, sphere_ifs_detmap_1, sphere_ifs_detmap_2, sphere_ifs_detmap_3, sphere_ifs_detmap_4, sphere_ifs_detmap_5, gpi_fwhm_1.fits, gpi_fwhm_2.fits, gpi_fwhm_3.fits, gpi_fwhm_4.fits, gpi_fwhm_5.fits, sphere_ifs_fwhm_1, sphere_ifs_fwhm_2, sphere_ifs_fwhm_3, sphere_ifs_fwhm_4, sphere_ifs_fwhm_5, detection_threshold.fits. 
 
@@ -19,7 +21,7 @@ By thresholding each detection map and counting the true and false positives, we
 
 where ``TPs`` is the number of true positives/detections, ``FPs`` is the total number of false positives or Type I error, ``Ndet`` is the total number of detections (``TPs + FPs``) and ``Ninj`` is the total number of injections (accros all the datasets of a given sub-challenge). The ``TPs``, ``FPs`` and ``Ndet`` are counted for a given participant/algorithm over all the datasets of a given sub-challenge. This blob counting procedure is implemented in the [Vortex Image Processing package](https://github.com/vortex-exoplanet/VIP), specifically in the ``compute_binary_map`` function found [here](https://github.com/vortex-exoplanet/VIP/blob/master/vip_hci/metrics/roc.py). Read below about the Data Challenge starting kit, which contains detailed explanations about the blob counting procedure. 
 
-Two scoreboards will be computed, one for the sub-challenge on ADI data (3D cubes) and one for the sub-challenge on ADI+mSDI cubes (4D cubes). The F1-score serves well our goal of assessing the performance of detection algorithms as binary classifiers, therefore we will use it to rank the entries on each scoreboard.
+Two **scoreboards** will be computed, one for the sub-challenge on ADI data (3D cubes) and one for the sub-challenge on ADI+mSDI cubes (4D cubes). The F1-score serves well our goal of assessing the performance of detection algorithms as binary classifiers, therefore we will use it to rank the entries on each scoreboard.
 
 > Note: Each submission must correspond to the results of applying the same algorithm to all the datasets. If your algorithm works for both 3D and 4D datasets then you need to make two submissions (to have your score on each scoreboard).
 
