@@ -27,7 +27,7 @@ In the spirit of openness, anyone can contribute at any stage of the challenge b
 
 ## Core team
 
-* Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, webpage content and Codalab implementation)*
+* Carlos Alberto Gomez Gonzalez, <carlos.gomez@univ-grenoble-alpes.fr> *(challenge design and coordination, metrics definition, website creation, backend implementation on Codalab, code implementation on extras repo)*
 * Corentin Doco, <corentin.doco@phelma.grenoble-inp.fr> *(pre-processing of the contributed datasets)*
 * Faustine Cantalloube, <cantalloube@mpia.de>  *(challenge design and template spectra for fake companions)*
 * Raphael Bacher, <raphael.bacher@univ-grenoble-alpes.fr> *(implementation of the challenge on Codalab and metrics)*
