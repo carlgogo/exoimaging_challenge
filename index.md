@@ -2,7 +2,7 @@
 ---
 # Introduction
 
-Welcome to The Exoplanet Imaging Data Challenge, a community-wide effort to compare  algorithms for directly detecting exoplanets with ground-based high-contrast imaging. The challenge is organized in collaboration with several members of the high-contrast imaging community and has direct support from the Grenoble Alpes Data Institute (Université Grenoble Alpes, France).
+Welcome to The Exoplanet Imaging Data Challenge, a community-wide effort to compare  algorithms for detecting exoplanets with ground-based high-contrast imaging. The challenge is organized in collaboration with several members of the high-contrast imaging community and has direct support from the Grenoble Alpes Data Institute (Université Grenoble Alpes, France).
 
 In the spirit of openness, anyone can contribute at any stage of the challenge by sending a pull request to this repository. If you have questions, suggestions or issues when submitting, please open and issue on this repository or contact any of the organizers (see the Core team section). All the benchmark datasets, metrics and results will be publicly available at the end of the competition.
 
